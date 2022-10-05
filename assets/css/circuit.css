@@ -1,0 +1,93 @@
+*{
+    padding:0;margin:0;
+    font-family:sans-serif;
+}
+.conteneur-principale{
+    padding:20px;height:100vh;
+    background:rgb(34, 49, 66);
+    background-repeat:no-repeat;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap:30px;
+}
+.conteneur-principale label{
+    color:white;
+}
+body > h1{
+    font-size: 70px;
+    font-family: sans-serif;
+    background:rgb(34, 49, 66);
+    color:rgb(240, 188, 52);
+    text-align: center;
+}
+.conteneur-droite h1{
+    font-size:40px;text-align:center;
+    font-family:sans-serif;
+    color:rgb(240, 188, 52);
+    margin-bottom:50px;
+}
+.conteneur-droite{
+    display:flex;
+    flex-direction:column;
+}
+
+.mbola misolo{
+    margin-right:10px;
+    height:70px;
+    width:100px;
+    font-size:50px;
+    text-align:center;
+    color:rgb(240, 188, 52);
+    background:rgba(58,166,138,0.8);
+    border: 1px solid rgb(214, 68, 57);
+    border-radius:500px;
+    
+}
+input:focus{
+    outline-style: solid;
+    outline-color: rgb(240, 188, 52);
+    outline-width: 1px;
+}
+label{
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+}
+.bouton{
+    display:flex;
+    justify-content:center;
+    gap:20%;
+}
+button{
+    width: auto;
+    padding:5px 15px;
+    cursor:pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.image-conteneur img{
+    width:100%;
+}
+
+#resultatCircuit{
+    margin-top:100px;
+    margin-left:20px;
+    font-family:serif;
+    line-height: 65px;
+    font-size:35px;
+    color:rgb(214, 68, 57);
+}
+
+.conteneur-droite input{
+    padding-left:10px;
+width:100px;
+height:50px;
+border-radius:10px;
+border-color: white;
+font-size: 34px;
+background-color: rgb(53, 48, 56);
+color:white;
+}
+.conteneur-droite input{
+    color: white;
+}
